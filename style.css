@@ -1,0 +1,49 @@
+/* Esto es un comentario */
+
+/* Selector {
+    propiedad: valor;
+ } */
+
+ /* Selectores: Pueden ser etiquetas, id, etc. A quien le quiero aplicar estilos. */
+ /* Propiedades: Que quiero cambiarle al selector. */
+ /* Valor: Lo que quiero aplicarle al selector */
+
+ /* Ejemplos! */
+
+ /* Formas de cambiar el selector seleccionado sin que cambie todo los selectores */
+
+ /* 1: Cascada */
+     section p{
+     /* Ingles, Rgb, Rgba, Hsl, Hexadecimal */
+     color:rgb(255, 255, 255);
+     } 
+
+     /* 2: Class */
+     .parrafo-rojo {
+       color:red;
+       background-color: aquamarine;
+     }
+
+     /* 3: Id */
+     #pinto {
+     color: black; 
+     }
+
+ /* Utilizar Class es lo mas recomendable */
+
+ /* Aplicar imagenes de fondo */
+ body {
+     background-image: url("imagen/Logo\ DataRef.jpg");
+     background-size: cover;
+     background-attachment: fixed;
+
+ }
+
+a {
+    text-decoration: none;
+    font-size: 44px;
+}
+
+ul {
+    list-style: none;
+}
